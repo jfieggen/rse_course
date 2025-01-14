@@ -1,0 +1,4 @@
+#Class-based polymorphism is a fundamental concept in object-oriented programming that allows objects of different classes to be treated as if they were the same type, while still maintaining their individual differences. In other words, polymorphism enables objects to be manipulated in a generic way, irrespective of their specific class or implementation
+#   As an example, lets return to our Patient and Doctor classes from the previous section. We wish to have some common functionality for both types of people, but have this functionality customized for each type. In particular we want to be able to:
+#      Print a more useful string representation of the object, for example Doctor: Alice or Patient: Bob
+#       Set a unique identifier to each person, so that each doctor has an id of the form D0001, and each patient has an id of the form P0001
